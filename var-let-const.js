@@ -16,3 +16,14 @@ number[1]=55;
 
 number.push(278,778,90)
 console.log(number)
+
+let student ={
+    name:'sadhin',
+    class:'Bsc In CSE',
+
+}
+console.log(student)
+student.name='Taosif'
+    
+
+console.log(student)
