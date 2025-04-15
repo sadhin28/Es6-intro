@@ -10,3 +10,9 @@ console.log(d)
 console.log(b)
 b=50;
 console.log(b)
+const number=[1, 2, 3, 4, 5, 6]
+
+number[1]=55;
+
+number.push(278,778,90)
+console.log(number)
