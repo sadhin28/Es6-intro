@@ -22,6 +22,7 @@ glass.source='Bangladesh'
 console.log(glass)
 
 
+
 //object seal
 Object.seal(glass);
 glass.size=3;
@@ -38,3 +39,15 @@ console.log(glass)
 // }
 
 // console.log(pair)
+
+//optional
+//for in used in boject
+//for of used in array
+const keyss= Object.keys(glass);
+// console.log(keyss);
+for (let i of keyss){
+    // console.log(i)
+}
+for(let j in glass){
+    console.log(j)
+}
