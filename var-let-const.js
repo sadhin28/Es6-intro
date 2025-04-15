@@ -26,4 +26,4 @@ console.log(student)
 student.name='Taosif'
     
 
-console.log(student)
+console.log(typeof(student))
