@@ -5,14 +5,14 @@ const actor = {
     money:523452
 }
 //use property name as a variable by Destructuring
-const {phone}=actor;
+const {phone,age,money}=actor;
 const {age:boyos}=actor;
 
 // const phone=actor.Phone;
 console.log(phone)
 console.log(phone)
 console.log(phone)
-console.log(phone)
+console.log(money)
 // const name=actor.name;
 // console.log(name);
 // console.log(name);
