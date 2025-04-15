@@ -8,7 +8,12 @@ console.log(max)
 //use spread operator to compy
 const nums = [3,4,5,6];
 const nums2=nums;
+
+const dosto=[...nums]
+console.log(dosto)
 nums2.push(12);
-console.log(nums)
-nums.pop(12)
-console.log(nums)
+console.log(nums2)
+
+//advanced
+const sonkha =[...nums, 9999]//add extre element element while copy
+console.log(sonkha)
