@@ -4,7 +4,7 @@ const data=[
     {id:2,name:'Redwan',address:'Savar'},
     {id:3,name:'Rayhan',address:'JamalPur'}
 ]
-console.log(data[2].name)
+// console.log(data[2].name)
 
 const products = {
     count: 5000,
@@ -15,4 +15,20 @@ const products = {
     ]
 }
 
-console.log(products.data[1].price)
+// console.log(products.data[1].price)
+
+
+const user= {
+    id:5001,
+    name:'Shoriful Raj',
+    address:{
+        Street:{
+            first:'54/1 uttor side',
+            second:'poribag er goli',
+            third:'no dorai'
+        },
+        city:'dhaka'
+    }
+}
+
+console.log(user.address.Street.second)
