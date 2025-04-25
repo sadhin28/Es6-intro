@@ -5,7 +5,7 @@ const addproduct=()=>{
   const Quantity = document.getElementById('product-quantity').value
   console.log(Quantity)
   Quantity.value=''
-
+  localStorage.setItem(productName,Quantity)
   displayProduct(productName,Quantity)
 
  
@@ -20,11 +20,11 @@ const displayProduct = (p,q)=>{
 }
 const getStoredShopingCart=()=>{
     const storedCart = localStorage.getItem('cart');
-    let cart = {};
+    let cat = {};
     if(storedCart){
-        cart = JSON.parse(storedCart);
+        cat = JSON.parse(storedCart);
     }
-    return cart;
+    return cat;
 }
 const saveProductTolocalStorage = (product,quantity)=>{
 
