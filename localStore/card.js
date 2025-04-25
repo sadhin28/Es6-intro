@@ -1,11 +1,11 @@
 const addproduct=()=>{
   const productName =  document.getElementById('product-name').value
-  console.log(productName)
-  productName.value=''
+//   console.log(productName)
+ 
   const Quantity = document.getElementById('product-quantity').value
   console.log(Quantity)
   Quantity.value=''
- 
+  productName.value=''
   displayProduct(productName,Quantity)
   saveProductTolocalStorage(productName,Quantity)
  
@@ -38,10 +38,14 @@ const saveProductTolocalStorage = (product,quantity)=>{
 
 const displayStoreValue = ()=>{
     const savecart= getStoredShopingCart();
-    console.log(savecart)
+    // console.log(savecart)
     for(const product in savecart){
         const quantitys=savecart[product]
         displayProduct(product,quantitys)
     }
+}
+
+function clearCart(){
+    localStorage.clear()
 }
 displayStoreValue()
