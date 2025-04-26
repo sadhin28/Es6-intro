@@ -34,3 +34,5 @@ console.log(value)
 for (let i of value){
     console.log(i)
 }
+
+value.forEach(num=>console.log(num))
