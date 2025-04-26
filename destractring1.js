@@ -17,3 +17,6 @@ const person ={
 
 const [car1,car2,car3] = person.car;
 console.log(car1,car2,car3)
+//object destructuring 
+const {names,age}=person
+console.log(names,age)
