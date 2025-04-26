@@ -19,4 +19,9 @@ const [car1,car2,car3] = person.car;
 console.log(car1,car2,car3)
 //object destructuring 
 const {names,age}=person
-console.log(names,age)
+// console.log(names,age)
+
+const personJson = JSON.stringify(person)
+console.log(typeof(personJson))
+const personobject =JSON.parse(personJson)
+console.log(typeof(personobject))
