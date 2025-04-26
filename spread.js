@@ -15,5 +15,5 @@ nums2.push(12);
 console.log(nums2)
 
 //advanced
-const sonkha =[...nums, 9999]//add extre element element while copy
-console.log(sonkha)
+const sonkhaa =[...nums, 9999]//add extre element element while copy
+console.log(sonkhaa)
