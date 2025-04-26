@@ -23,3 +23,4 @@ if(money>100){
 let food1 = money>100? 'biriyani':'cha biscuit'
 console.log(food1)
 console.log(food)
+
