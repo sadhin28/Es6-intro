@@ -32,3 +32,9 @@ const product = [
   const newProduct = {name:'webcam',price:700,brand:'canon',color:'blue'}
 const newProducts = [...product,newProduct]
 console.log(newProducts)
+
+const remaining = product.filter(product=>product.name !== 'phone');
+
+// console.log(remaining)
+const addproductWithoutPhone = [...remaining,newProduct]
+console.log(addproductWithoutPhone)
