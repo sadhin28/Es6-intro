@@ -12,3 +12,6 @@ const addToLocalStorage=()=>{
     idInput.value=''
   
 }
+const clearLocalStore = () =>{
+    localStorage.clear()
+}
