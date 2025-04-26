@@ -22,6 +22,15 @@ const {names,age}=person
 // console.log(names,age)
 
 const personJson = JSON.stringify(person)
-console.log(typeof(personJson))
+// console.log(typeof(personJson))
 const personobject =JSON.parse(personJson)
-console.log(typeof(personobject))
+// console.log(typeof(personobject))
+
+//key , values//key add values are given by array
+const keys = Object.keys(person)
+console.log(keys);
+const value =Object.values(person)
+console.log(value)
+for (let i of value){
+    console.log(i)
+}
