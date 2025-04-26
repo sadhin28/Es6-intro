@@ -28,3 +28,7 @@ const product = [
  //find
  const special = product.find(p=>p.name.includes('o'))
  console.log(special)
+// coppy array and add new product using sperade
+  const newProduct = {name:'webcam',price:700,brand:'canon',color:'blue'}
+const newProducts = [...product,newProduct]
+console.log(newProducts)
